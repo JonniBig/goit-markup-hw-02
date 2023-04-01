@@ -136,7 +136,8 @@ body {
 }
 .filter-btn:focus,
 .filter-btn:hover {
-  background-color: var(--cornflower);
+  background-color: var(--ocean);
+  color: #ffffff;
 }
 
 /* footer */
