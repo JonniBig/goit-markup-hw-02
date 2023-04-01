@@ -35,7 +35,7 @@ body {
 }
 .logo {
   color: var(--iris);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -96,18 +96,22 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--navy-blue);
+  letter-spacing: 0.02em;
 }
 .text-dscr {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  color: var(--slate);
 }
 
 .title-section {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--navy-blue);
 }
 .our-team {
@@ -119,6 +123,11 @@ body {
   background-color: var(--cloud);
   color: var(--iris);
   font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .filter-btn:focus,
 .filter-btn:hover {
@@ -128,6 +137,11 @@ body {
   background-color: var(--ocean);
   color: var(--white);
   font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 /* footer */
